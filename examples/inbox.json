@@ -1,0 +1,6 @@
+[
+  { "from": "Dev <dev@cedarvalleyhvac.example>", "subject": "Re: Missed calls at Cedar Valley HVAC", "body": "Sounds good, send it over. Can you call me Thursday?\n\nOn Mon, Alex wrote:\n> Hi Dev," },
+  { "from": "owner@summitair.example", "subject": "Re: Missed calls at Summit Air", "body": "STOP" },
+  { "from": "office@oakline.example", "subject": "Automatic reply: Missed calls at Oakline Heating", "body": "I am out of the office until Monday.", "headers": { "auto-submitted": "auto-replied" } },
+  { "from": "mailer-daemon@googlemail.example", "subject": "Delivery Status Notification (Failure)", "body": "Your message wasn't delivered to jo@ironwoodair.example because the address couldn't be found." }
+]

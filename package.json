@@ -1,0 +1,16 @@
+{
+  "name": "email-sequence-sender",
+  "version": "1.0.0",
+  "description": "Multi-step email sequences that stop the moment someone replies. Reply classification, suppression, CAN-SPAM checks, recipient-timezone send windows, dry-run .eml outbox.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "bin": { "sequence-sender": "bin/sender.js" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.0"
+  }
+}

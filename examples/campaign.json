@@ -1,0 +1,26 @@
+{
+  "from": "Alex at Demo Co <alex@democo.example>",
+  "unsubscribeMailto": "unsubscribe@democo.example",
+  "footer": "Demo Co, 1200 Example Ave, Suite 4, Springfield, MO 65801\nNot useful? Reply \"stop\" and you will not hear from me again.",
+  "window": { "timezone": "America/Chicago", "startHour": 8, "endHour": 16 },
+  "steps": [
+    {
+      "id": "e0",
+      "afterBusinessDays": 0,
+      "subject": "Missed calls at {{company}}",
+      "text": "Hi {{firstName}},\n\nWhen {{company}} is on a job and the phone rings, where does that call go?\n\nI built a short demo that shows one way to catch those after hours. Want me to send it over?\n\nAlex"
+    },
+    {
+      "id": "e1",
+      "afterBusinessDays": 3,
+      "subject": "Re: Missed calls at {{company}}",
+      "text": "Hi {{firstName}},\n\nFollowing up once. If the timing is wrong, just say so and I will close the loop.\n\nAlex"
+    },
+    {
+      "id": "e2",
+      "afterBusinessDays": 5,
+      "subject": "Closing the file",
+      "text": "Hi {{firstName}},\n\nI will not follow up again after this one. If catching after-hours calls ever becomes a priority at {{company}}, my inbox is open.\n\nAlex"
+    }
+  ]
+}

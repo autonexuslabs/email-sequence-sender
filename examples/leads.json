@@ -1,0 +1,9 @@
+[
+  { "email": "maria@northwind-heating.example", "firstName": "Maria", "company": "Northwind Heating" },
+  { "email": "dev@cedarvalleyhvac.example", "firstName": "Dev", "company": "Cedar Valley HVAC" },
+  { "email": "owner@summitair.example", "firstName": "Sam", "company": "Summit Air" },
+  { "email": "office@oakline.example", "firstName": "Priya", "company": "Oakline Heating" },
+  { "email": "jo@ironwoodair.example", "firstName": "Jo", "company": "Ironwood Air" },
+  { "email": "info@pacificcomfort.example", "firstName": "Luis", "company": "Pacific Comfort", "timezone": "America/Los_Angeles" },
+  { "email": "hello@noname-hvac.example", "company": "Noname HVAC" }
+]
